@@ -1,0 +1,11 @@
+# dependencies installed by npm
+node_modules
+
+# build artefacts
+_site
+
+.env*
+_tmp/
+.DS_Store
+
+*.tar.gz

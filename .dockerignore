@@ -1,0 +1,8 @@
+.git
+node_modules
+_site
+.env*
+_tmp/
+.DS_Store
+
+*.tar.gz

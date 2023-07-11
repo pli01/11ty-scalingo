@@ -1,0 +1,9 @@
+README.md
+Makefile
+docker
+docker-compose*
+node_modules
+.scalingo/node
+package-lock.json
+package.json
+src

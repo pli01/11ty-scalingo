@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "18",
+    "npm": "9"
+  },
+  "scripts": {
+    "build": "npx @11ty/eleventy --input=src ; ls -l ",
+    "scalingo-postbuild": "npx @11ty/eleventy --input=src ; ls -l",
+    "build:prod": "env NODE_ENV=production npx @11ty/eleventy --input=src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy --serve --port=$PORT --input=src",
+    "start:prod": "env NODE_ENV=production npx @11ty/eleventy --serve --port=$PORT --input=src --ignore-initial"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
